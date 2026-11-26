@@ -1,0 +1,27 @@
+devbay - Freeware License
+
+Copyright (c) 2026 the devbay author. All rights reserved.
+
+You may download, install and use devbay free of charge, for personal or
+commercial work, on any number of your own computers.
+
+You may not:
+  - sell devbay, or redistribute it (alone or bundled with other software)
+    without written permission;
+  - modify, decompile, disassemble or reverse engineer it, except where the
+    law allows this despite this restriction;
+  - remove or change this license or the copyright notice.
+
+devbay downloads third-party software (such as Apache, PHP, MariaDB,
+phpMyAdmin, nginx, Redis, PostgreSQL, Memcached, Mailpit and Adminer) from
+their official sources. That software is covered by its own licenses, not by
+this one.
+
+devbay includes open-source components; see THIRD_PARTY_LICENSES.txt.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
