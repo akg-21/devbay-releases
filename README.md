@@ -15,7 +15,7 @@ a database and the hosts file entry.
 
 ## Download
 
-Get the latest version from the **[Releases](https://github.com/akg-21/devbay-releases/releases/latest)** page:
+Get the latest version from the **[Releases](https://github.com/akg-21/nampix-releases/releases/latest)** page:
 
 | System | File |
 |---|---|
@@ -31,7 +31,7 @@ Get the latest version from the **[Releases](https://github.com/akg-21/devbay-re
 
 ```powershell
 New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\nampix" | Out-Null
-Invoke-WebRequest https://github.com/akg-21/devbay-releases/releases/latest/download/nampix-windows-amd64.exe -OutFile "$env:LOCALAPPDATA\nampix\nampix.exe"
+Invoke-WebRequest https://github.com/akg-21/nampix-releases/releases/latest/download/nampix-windows-amd64.exe -OutFile "$env:LOCALAPPDATA\nampix\nampix.exe"
 [Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path", "User") + ";$env:LOCALAPPDATA\nampix", "User")
 ```
 
@@ -44,7 +44,7 @@ Windows may show "Windows protected your PC" the first time. Click
 ### Linux
 
 ```sh
-sudo curl -fL -o /usr/local/bin/nampix https://github.com/akg-21/devbay-releases/releases/latest/download/nampix-linux-amd64
+sudo curl -fL -o /usr/local/bin/nampix https://github.com/akg-21/nampix-releases/releases/latest/download/nampix-linux-amd64
 sudo chmod +x /usr/local/bin/nampix
 nampix version
 ```
