@@ -1,4 +1,4 @@
-devbay includes code from the following open-source projects.
+nampix includes code from the following open-source projects.
 Their licenses require this notice to be distributed with the program.
 
 === The Go programming language (runtime and standard library) ===
